@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical"
+     tools:context=".temperatureConverter_1111">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_View"
+        android:layout_marginBottom="20sp"
+        android:textSize="30sp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton1"
+            android:id="@+id/c2fId"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton2"
+            android:id="@+id/f2cId"
+            />
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Temperature"
+            android:layout_marginRight="10sp"
+            android:textAlignment="center"
+            android:id="@+id/getValId"
+            android:inputType="number"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:layout_margin="10sp"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Output"
+            android:paddingLeft="10dp"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:id="@+id/showAnsId"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Button"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:id="@+id/convrtBtn"/>
+
+
+</LinearLayout>
+

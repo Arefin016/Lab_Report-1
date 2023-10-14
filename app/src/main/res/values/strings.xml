@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyTemp</string>
+    <string name="text_View">CONVERSION:</string>
+    <string name="radioButton1">Celcius to Fahrenheit</string>
+    <string name="radioButton2">Fahrenheit to Celcius</string>
+    <string name="Button">CONVERT</string>
+</resources>
